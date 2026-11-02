@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bilan : le bilan mensuel de tes clients, envoyé sans y penser</title>
+<meta name="description" content="Saisis tes chiffres en une minute. Le bilan est mis en page à tes couleurs et envoyé le 1er du mois. Pour les prestataires de précommandes de Noël.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Bilan : le bilan mensuel envoyé sans y penser">
+<meta property="og:description" content="Tes clients veulent savoir ce qu'ils ont eu pour leur argent. Bilan l'envoie pour toi, chaque 1er du mois.">
+<style>
+:root{--nuit:#0f1b2d;--baie:#b3173a;--papier:#f5f6f4;--blanc:#fff;--gris:#5b6472;--trait:#d9dde2}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--papier);color:var(--nuit);font:17px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.w{max-width:640px;margin:0 auto;padding:0 20px}
+h1,h2,h3{line-height:1.08;letter-spacing:-.03em;margin:0}
+h1{font-size:clamp(34px,9vw,52px);font-weight:800}
+h2{font-size:clamp(26px,6.5vw,34px);font-weight:800;margin-bottom:16px}
+h3{font-size:19px;font-weight:700;letter-spacing:-.01em;margin-bottom:4px}
+p{margin:0 0 12px}
+section{padding:44px 0;border-top:1px solid var(--trait)}
+.hero{padding:36px 0 40px;border:0}
+.lead{font-size:19px;margin:16px 0 22px;max-width:30em}
+.btn{display:block;text-align:center;background:var(--baie);color:#fff;font-weight:700;font-size:18px;padding:17px 20px;border-radius:6px;text-decoration:none;min-height:56px}
+.btn:focus-visible,a:focus-visible{outline:3px solid var(--nuit);outline-offset:3px}
+.btn.alt{background:var(--nuit)}
+.note{font-size:15px;color:var(--gris);margin-top:10px}
+.bilan{background:var(--blanc);border:1px solid var(--trait);border-top:6px solid var(--baie);padding:16px 18px;margin-top:28px;font-size:15px}
+.bilan b{display:block;font-size:16px;margin-bottom:8px}
+.bilan div{display:flex;justify-content:space-between;padding:7px 0;border-top:1px solid var(--trait)}
+.bilan span:last-child{font-weight:700}
+.bilan small{display:block;color:var(--gris);margin-top:10px}
+.cost{font-size:44px;font-weight:800;letter-spacing:-.04em;color:var(--baie)}
+ul.b{list-style:none;padding:0;margin:0}
+ul.b li{padding:14px 0;border-top:1px solid var(--trait)}
+ul.b li:first-child{border:0;padding-top:0}
+.offre{background:var(--blanc);border:1px solid var(--trait);padding:20px;margin-bottom:16px}
+.offre.fond{border:2px solid var(--baie)}
+.prix{font-size:40px;font-weight:800;letter-spacing:-.04em;line-height:1}
+.prix small{font-size:16px;font-weight:500;letter-spacing:0;color:var(--gris)}
+.jour{color:var(--gris);margin:6px 0 14px}
+.garantie{border-left:5px solid var(--baie);background:var(--blanc);padding:14px 16px;margin:20px 0}
+details{border-top:1px solid var(--trait);padding:14px 0}
+summary{font-weight:700;cursor:pointer;min-height:28px}
+details p{margin:10px 0 0;color:var(--gris)}
+footer{padding:32px 0 48px;border-top:1px solid var(--trait);font-size:14px;color:var(--gris)}
+footer b{color:var(--nuit)}
+.todo{background:#fff3b0;padding:0 3px}
+</style>
+</head>
+<body>
+
+<header class="w hero">
+  <h1>Ton bilan mensuel part tout seul, le 1er du mois.</h1>
+  <p class="lead">Tes clients veulent savoir ce qu'ils ont eu pour leur argent. Tu saisis les chiffres en une minute, Bilan fait le reste.</p>
+  <a class="btn" href="#offres">Commencer</a>
+  <p class="note">Sans engagement. Remboursé si ça ne te convient pas.</p>
+  <div class="bilan" aria-label="Exemple de bilan">
+    <b>Bilan de novembre · Boutique Les Gourmandes</b>
+    <div><span>Précommandes reçues</span><span>86</span></div>
+    <div><span>Valeur des précommandes</span><span>4 120 €</span></div>
+    <div><span>Livrées avant le 24 déc.</span><span>100 %</span></div>
+    <small>Exemple fictif, à tes couleurs et à ton nom.</small>
+  </div>
+</header>
+
+<section>
+  <div class="w">
+    <h2>Le bilan à la main te coûte du temps, ou le contrat.</h2>
+    <p>À 45 minutes par bilan, 10 clients représentent</p>
+    <p class="cost">7 h 30 par mois</p>
+    <p>Et quand le bilan arrive en retard, ou pas du tout, le client se demande pour quoi il paie. C'est souvent là que le contrat s'arrête.</p>
+  </div>
+</section>
+
+<section>
+  <div class="w">
+    <h2>Trois choses changent.</h2>
+    <ul class="b">
+      <li><h3>Une minute de saisie</h3>Tu entres les chiffres du mois, rien d'autre.</li>
+      <li><h3>Un rapport propre, à tes couleurs</h3>Mis en page automatiquement, avec ton nom et tes couleurs.</li>
+      <li><h3>Envoyé le 1er, lu ou non</h3>Le bilan part à l'heure, et tu vois quand le client l'a lu.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="offres">
+  <div class="w">
+    <h2>Choisis ton offre.</h2>
+    <p>10 clients suivis inclus. Résiliable à tout moment.</p>
+
+    <div class="offre fond">
+      <h3>Offre fondateur</h3>
+      <p class="prix">39 € <small>/ mois</small></p>
+      <p class="jour">Soit 1,30 € par jour. Tarif garanti à vie tant que tu restes abonné. Il reste <b><span id="places">10</span> places sur 10</b>.</p>
+      <a class="btn" href="https://buy.stripe.com/test_eVq4gBfwjfGv96j5wM0Fi00">Prendre l'offre fondateur</a>
+      <p class="note">Sans engagement, résiliable à tout moment.</p>
+    </div>
+
+    <div class="offre">
+      <h3>Standard</h3>
+      <p class="prix">79 € <small>/ mois</small></p>
+      <p class="jour">Soit 2,63 € par jour.</p>
+      <a class="btn alt" href="https://buy.stripe.com/test_fZuaEZ1Ftdyn1DR6AQ0Fi01">Prendre l'offre standard</a>
+      <p class="note">Sans engagement, résiliable à tout moment.</p>
+    </div>
+
+    <div class="garantie">
+      <b>Satisfait ou remboursé pendant 14 jours.</b><br>
+      Écris à <span class="todo">[TON EMAIL]</span> dans les 14 jours suivant ton paiement : tu es remboursé en 5 jours ouvrés, sans justification.
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="w">
+    <h2>Questions fréquentes</h2>
+    <details><summary>Est-ce que ça marche pour mon activité ?</summary><p>Bilan est fait pour les prestataires qui gèrent des précommandes de Noël pour des commerçants et qui facturent au mois. Si ce n'est pas ton cas, demande avant de payer : <span class="todo">[TON EMAIL]</span>.</p></details>
+    <details><summary>Combien de temps ça me prend ?</summary><p>Environ une minute par client et par mois pour saisir les chiffres. Le rapport et l'envoi se font tout seuls.</p></details>
+    <details><summary>Et si je veux arrêter ?</summary><p>Tu résilies quand tu veux, sans préavis. Dans les 14 premiers jours, tu es en plus remboursé.</p></details>
+    <details><summary>À quoi sert exactement ce que je paie ?</summary><p>À suivre jusqu'à 10 clients : saisie mensuelle, bilan mis en page à tes couleurs, envoi programmé le 1er du mois et confirmation de lecture. Au démarrage, je prépare ton premier bilan avec toi.</p></details>
+  </div>
+</section>
+
+<footer>
+  <div class="w">
+    <p><b>Mentions légales</b><br>
+    Éditeur : <span class="todo">[NOM PRÉNOM]</span>, entrepreneur individuel.<br>
+    SIRET : <span class="todo">[SIRET]</span> · Adresse : <span class="todo">[ADRESSE]</span><br>
+    Contact : <span class="todo">[TON EMAIL]</span><br>
+    Hébergeur : Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, États-Unis.</p>
+    <p>Conditions générales de vente et politique de confidentialité : <span class="todo">[à venir avant l'ouverture des paiements réels]</span></p>
+  </div>
+</footer>
+
+</body>
+</html>
